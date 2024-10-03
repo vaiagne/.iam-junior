@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formos</title>
+
+        <style>
+            .form-item {
+                margin-bottom: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Kontaktų forma</h1>
+        <form>
+            <div class="form-item">
+            <label for="name">Vardas</label>
+            <input type="text" id="name"/>
+            </div>
+            <div class="form-item">
+            <label for="surname">Pavardė</label>
+            <input type="text" id="surname"/>
+            </div>
+            <div class="form-item">
+                <label for="age">Amžius</label>
+                <input type="number" id="age"/>
+            </div>
+            <div class="form-item">
+                <label for="email">Elektroninis paštas</label>
+                <input type="email" id="email"/>
+            </div>
+            <div class="form-item">
+                <label for="additionalinfo">Papildoma info</label>
+                <textarea id="additionalinfo">rows=3</textarea>
+            </div>
+            <div class="form-item">
+                <label for="country">Pilietybė</label>
+                <select name="country" id="country">
+                    <option value="Lietuvis">Lietuvis</option>
+                    <option value="Latvis">Latvis</option>
+                    <option value="Estas">Estas</option>
+                </select>
+             <div class="form-item">
+                    <label for="date">Renginio data</label>
+                    <input type="date" id="date"/>
+             </div>
+             
+            <div class="form-item">
+                <label for="password">Slaptažodis</label>
+                <input type="password" id="password"/>
+            </div>
+
+            <input type="submit" value="Siųsti"/>
+            <button type="submit">Siųsti</button>
+        </form>
+    </body>
+</html>

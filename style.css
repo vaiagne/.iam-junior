@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    background-color: #fff;
+}
+
+header .logo {
+    
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.header-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header-menu ul li {
+    display: inline-block;
+}
+
+.header-menu ul li a {
+    color: #4E4B66;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.header-menu ul li a:hover {
+    color: #F15A24;
+    border-bottom: 2px solid #F15A24;
+    padding-bottom: 5px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 48px 16px 48px;
+    height: 56px;
+    border-radius: 24px;
+    border: 1px solid #F15A24;
+    color: #F15A24;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.contact-button:hover {
+    background-color: #F15A24;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    background-color:#F15A24;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  .burger .line {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+  }
+  
+  .title {
+    font-size: 61px;
+    font-weight: 900;
+    line-height: 73.2px;
+    color:#1A1A1A;
+    max-width: 630px;
+    max-height: 146px;
+  }
+
+  
